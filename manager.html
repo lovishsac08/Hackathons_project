@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-x: hidden;
+    /* background-color: rgb(235,236,233); */
+   
+
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: rgb(205, 198, 154);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 10vh;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    column-gap: 25px;
+    
+    width: fit-content;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+    color: white;
+
+}
+form{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    row-gap: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.navbar-right{
+    color: white;
+    padding: 25px;
+    font-size: 24px;
+    display: flex;
+    column-gap: 9px;
+}
+ul li{
+    color: white;
+    
+    padding: 3px;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+ul li:hover{
+    border-radius: 20px;
+    background-color: white;
+    color: rgb(151, 146, 117);
+}
+ul li a:hover{
+    color: rgb(139, 135, 106);
+
+}
+.navbar-right i{
+   padding: 6px;
+}
+.navbar-right i:hover{
+    border-radius: 50%;
+    color: rgb(141, 137, 108);
+    background-color: white;
+}
+.container-middle{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+    background-image: url("https://assets.architecturaldigest.in/photos/62908230f8d29f1fcc5fc9b8/4:3/w_1440,h_1080,c_limit/Vastu%20money.jpg");
+    background-position: 100%;
+    background-size: 100%;
+
+}
+form input{
+    border: 2px solid rgb(141, 137, 108);
+    border-radius: 20px;
+    height: 26px;
+    padding-left: 3px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgb(255, 255, 255);
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 5px;
+}
+form input:hover{
+    outline: none;
+    border: 2px solid black;
+}
+form button{
+    background-color: #f7796b;
+    color: white;
+    border-radius: 20px;
+    height: 38px;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+}
+.container-middle-head{
+    opacity: 0.7;
+    font-size: 38px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: white;
+    backdrop-filter: blur(25px);
+}
+.container-middle-head span{
+    position: relative;
+    transition: 2s;
+}
+form input{
+    border: 2px solid #f7796b;
+    border-radius: 20px;
+    height: 26px;
+    padding-left: 3px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgb(255, 255, 255);
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 5px;
+}
+form input:hover{
+    outline: none;
+    border: 2px solid black;
+}
+form button{
+    background-color: #f7796b;
+    color: white;
+    border-radius: 20px;
+    height: 38px;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+}
+.container-middle-head{
+    opacity: 0.7;
+    font-size: 38px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    background-color: white;
+    color: rgb(141, 137, 108);
+}
+.container-middle-head span{
+    position: relative;
+    transition: 2s;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 23vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-middle-text h2{
+    opacity: 0.6px;
+    letter-spacing: 1px;
+}
+.footer-icons i{
+    font-size: 25px;
+    margin: 5px;
+
+}
+.grid-graphs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    margin-top: 30px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    
+}
+.grid-graphs img{
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+}
+.top-companies img{
+    height: 300px;
+    width: 400px;
+}
+.top-companies{
+    margin-top: 100px;
+    display: flex;
+    column-gap: 50px;
+
+}
+.myvideo{
+    height: 500px;
+    width: 1000px;
+    margin-top: 60px;
+}
+    </style>
+  </head>
+  <body style="background-color: rgb(9, 9, 44);">
+   <center><h1 style="color: white ;"> Our Popular Graphs</h1></center>
+</center>
+</h1>
+<div class="grid-graphs">
+
+
+    <img src="https://cdn.dribbble.com/users/45389/screenshots/1225904/untitled-1.gif" alt="">
+    <img src="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/69aa52fb-b692-463f-84c1-cde2470445ae/css-animation-craziness.gif" alt="">
+    <img src="https://i.pinimg.com/originals/f8/8a/ca/f88acab7ffd127b4465659500aa0538f.gif" alt="">
+</div>
+<center>
+<div><h1 style="color: white;">Our Customers</h1></div>
+<div class="top-companies">
+<marquee behavior="" direction="left">
+
+    <img src="https://m.economictimes.com/thumb/msid-84174724,width-1200,height-900,resizemode-4,imgsize-269953/15.jpg" alt="" srcset="">
+    <img src="https://etimg.etb2bimg.com/photo/102162482.cms" alt="">
+    <img src="https://m.economictimes.com/thumb/msid-101205067,width-600,resizemode-4/hdfc-bank-share-price-live-23-jun-2023.jpg" alt="">
+    <img src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/202307/screenshot_195-sixteen_nine.png" alt="">
+    <img src="https://yt3.googleusercontent.com/ytc/APkrFKZnN9b1FA_nlCqL5hYMecK2T251kVnzII5Jp4ez=s900-c-k-c0x00ffffff-no-rj" alt="">
+    <img src="https://images.5paisa.com/MarketIcons/MFSL.png" alt="">
+    <img src="https://bfsi.eletsonline.com/wp-content/uploads/2017/06/axis-bank.jpg" alt="">
+    <img src="https://www.finhancers.com/amc/nippon.png" alt="">
+    <img src="https://bfsi.eletsonline.com/wp-content/uploads/2023/04/Poonawalla-Fincorp-Limited.jpg" alt="">
+</marquee>
+</div>
+<br><br>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
